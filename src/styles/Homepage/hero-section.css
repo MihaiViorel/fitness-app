@@ -1,3 +1,90 @@
-.hero-section {
-  color: red;
+.exercise_container {
+  background-color: var(--bg-text-color);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 900px;
+  margin: 50 auto;
+}
+
+.ex_container-hero {
+  /* background-color: rgb(95, 95, 95); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ex_container-1 {
+  padding: 20px 0px 20px 0px;
+}
+
+
+.ex_container-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.ex_title-1 {
+  color: var(--primary-color);
+  font-family: Bebas Neue;
+  font-size: 30px;
+  font-weight: 400px;
+}
+
+.ex_title-2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Bebas Neue;
+  font-size: 30px;
+  font-weight: 400px;
+  color: var(--primary-color);
+  padding: 20px 0px 10px 0px;
+}
+
+.ex_description {
+  color: white;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.custom-bp-1::marker {
+  color: var(--primary-color);
+}
+
+.custom-bp-2::marker {
+  color: var(--secondary-color);
+}
+
+.custom-bp-1 {
+  margin-top: 10px;
+  color: var(--primary-color);
+}
+
+/* 
+Orbitron
+Jaro
+Montserrat
+Rowdies
+Shadows Into Light
+Permanent Marker
+Anton
+Bebas Neue
+*/
+
+
+.ex-1_image-1{
+  width: 400px;
+  height: 400px;
+}
+
+.ex-1_image-2 {
+  width: 400px;
+  height: 400px;
 }

@@ -2,6 +2,8 @@
   --bg-text-color: #1B1F3E;
   --logo-fade:#121528;
   --link-hover-1: #fa0043;
+  --primary-color: yellow;
+  --secondary-color: rgb(224, 104, 0);
 }
 
 .global-header{
