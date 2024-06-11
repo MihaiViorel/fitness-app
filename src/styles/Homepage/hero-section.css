@@ -1,10 +1,39 @@
 .exercise_container {
+  display: flex;
+  justify-content: center;
+}
+
+.exercise_border_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+  border: 5px solid var(--bg-text-color);
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.ex_number {
+  background-color: var(--bg-text-color);
+  width: 100px;
+  height: 814px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  font-family: Bebas Neue;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.exercise-description_container {
   background-color: var(--bg-text-color);
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 900px;
-  margin: 50 auto;
+  height: 814px;
 }
 
 .ex_container-hero {
@@ -19,7 +48,6 @@
   padding: 20px 0px 20px 0px;
 }
 
-
 .ex_container-2 {
   display: flex;
   align-items: center;
@@ -31,7 +59,7 @@
   color: var(--primary-color);
   font-family: Bebas Neue;
   font-size: 30px;
-  font-weight: 400px;
+  font-weight: 400;
 }
 
 .ex_title-2 {
@@ -40,7 +68,7 @@
   color: white;
   font-family: Bebas Neue;
   font-size: 30px;
-  font-weight: 400px;
+  font-weight: 400;
   color: var(--primary-color);
   padding: 20px 0px 10px 0px;
 }
@@ -49,7 +77,7 @@
   color: white;
   font-family: Montserrat;
   font-size: 20px;
-  font-weight: 400px;
+  font-weight: 400;
   margin: 0;
   padding-bottom: 20px;
 }
@@ -67,16 +95,7 @@
   color: var(--primary-color);
 }
 
-/* 
-Orbitron
-Jaro
-Montserrat
-Rowdies
-Shadows Into Light
-Permanent Marker
-Anton
-Bebas Neue
-*/
+
 
 
 .ex-1_image-1{
@@ -88,3 +107,128 @@ Bebas Neue
   width: 400px;
   height: 400px;
 }
+
+
+.exercise-recordings_container {
+  background-color: var(--bg-text-color);
+  width: 700px;
+  height: 814px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  color: var(--primary-color);
+  font-family: Rowdies;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+
+.exercise-recordings_table-header {
+  margin-top: 20px;
+  display: flex;
+  height: 40px;
+  gap: 40px;
+}
+
+.exercise-recordings_table-header span {
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--body-background);
+  border: 5px solid var(--body-background);
+  border-radius: 5px;
+}
+
+.recordings_container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.recordings_container span{
+  width: 130px;
+  height: 30.4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--body-background);
+  border: 5px solid var(--body-background);
+  border-radius: 5px;
+  margin-top: 20px;
+  font-family: Rowdies;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+.recordings_form {
+  margin-top: 20px;
+  display: flex;
+  height: 40px;
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recordings_container form input {
+  height: 30.4px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--body-background);
+  border: 5px solid var(--body-background);
+  border-radius: 5px;
+  font-family: Shadows Into Light;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0;
+  text-align: center;
+  color: var(--secondary-color);
+  font-family: Rowdies;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.recordings_container form input::placeholder {
+  font-family: Bebas Neue;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.set-form_done_button {
+  margin-top: 20px;
+  background-color: var(--validate-green);
+  border: 5px solid var(--validate-green);
+  border-radius: 5px;
+  width: 680px;
+  height: 40px;
+  font-family: Rowdies;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+/* 
+Orbitron
+Jaro
+Montserrat
+Rowdies
+Shadows Into Light
+Permanent Marker
+Anton
+Bebas Neue
+*/
